@@ -1,24 +1,20 @@
 import React from "react";
-import LinkedInIcon from '@material-ui/icons/LinkedIn'
-import GithubIcon from '@material-ui/icons/GitHub'
-import EmailIcon from '@material-ui/icons/Email'
-import '../styles/Footer.css'
-
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import GithubIcon from "@material-ui/icons/GitHub";
+import EmailIcon from "@material-ui/icons/Email";
+import "../styles/Footer.css";
 
 function Footer() {
   return (
     <div className="footer">
-      
       <div className="socialMedia">
         <LinkedInIcon />
         <GithubIcon />
-        <EmailIcon/>
+        <EmailIcon />
       </div>
 
-
-        <p>&copy; 2023 Portfolio Project 💻</p>  
- 
-     </div>
+      <p>&copy; 2023 Portfolio Website 💻</p>
+    </div>
   );
 }
 

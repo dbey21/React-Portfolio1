@@ -9,8 +9,8 @@ function Home() {
   return (
   <div className='home'>
     <div className='about'>
-      <h2>Hello, My Name is Dahn</h2>
-      <div className='prompt'><p>A software devlopeer with a passion for learning and creating
+      <h2>Hello, My Name is Dahn Bey</h2>
+      <div className='prompt'><p>A software developer with a passion for learning and creating
         </p>
         <LinkedInIcon />
         <GithubIcon />
