@@ -4,8 +4,9 @@ import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
 import Experience from "./pages/Experience";
 import Navbar from "./components/Navbar";
+import ContactForm from "./pages/ContactForm";
 import Footer from "./components/Footer";
-import Contact from "./pages/Contact"
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Portfolio" element={<Portfolio />} />
           <Route path="/experience" element={<Experience />} />
-          <Route path="/contact" element={<Contact />}/>
+          <Route path="/contactForm" element={<ContactForm />}/>
         </Routes>
         <Footer />
       </Router>
