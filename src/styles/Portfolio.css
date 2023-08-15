@@ -13,7 +13,7 @@
   }
 
   
-  .portfolioList {
+  .PortfolioList {
     width: 70vw;
     height: 50px;
     display: grid;
@@ -23,7 +23,7 @@
   
   /* MENU ITEM STYLING */
   
-  .portfolioItem {
+  .PortfolioItem {
     border-radius: 15px;
     width: 300px;
     height: 300px;
@@ -31,7 +31,7 @@
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
   }
-  .portfolioItem:hover {
+  .PortfolioItem:hover {
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
     transition: 0.3s ease-in;
     cursor: pointer;
@@ -47,27 +47,27 @@
     background-size: cover;
   }
   
-  .portfolioItem h1 {
+  .PortfolioItem h1 {
     font-size: 25px;
   }
   
   @media only screen and (max-width: 1300px) {
-    .portfolioList {
+    .PortfolioList {
       grid-template-columns: 1fr 1fr;
     }
   }
   
   @media only screen and (max-width: 800px) {
-    .portfolioList {
+    .PortfolioList {
       grid-template-columns: 1fr;
     }
   }
   
   @media only screen and (max-width: 800px) {
-    .portfolioList {
+    .PortfolioList {
       width: 100%;
     }
-    .portfolioItem {
+    .PortfolioItem {
       width: 300px;
       height: 300px;
     }
