@@ -10,7 +10,7 @@ function Home() {
   <div className='home'>
     <div className='about'>
       <h2>Hello, My Name is Dahn Bey</h2>
-      <div className='prompt'><p>A software developer with a passion for learning and creating
+      <div className='prompt'><p>Thanks for swinging by! I'm an energetic Full-Stack Developer who believes the magic happens where code meets creativity. With a solid foundation in JavaScript, SQL, HTML, CSS, and various other tech tools, I enjoy solving complex problems and turning them into simple, elegant solutions.
         </p>
         <LinkedInIcon />
         <GithubIcon />
