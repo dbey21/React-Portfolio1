@@ -1,12 +1,13 @@
 import React from "react";
 
-function PorfolioItem({ image, name }) {
+
+function PortfolioItem({ image, name }) {
   return (
-    <div className="PorfolioItem">
+    <div className="PortfolioItem">
       <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
       <h1>{name}</h1>
     </div>
   );
 }
 
-export default PorfolioItem;
+export default PortfolioItem;

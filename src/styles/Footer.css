@@ -1,7 +1,7 @@
 .footer {
     width: 99%;
     height: 200px;
-    background: #21325e;
+    background: rgb(29, 22, 113);
     display: flex;
     justify-content: center;
     align-items: center;

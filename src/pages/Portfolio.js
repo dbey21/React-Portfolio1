@@ -1,13 +1,16 @@
 import React from "react";
 import PortfolioItem from "../components/PortfolioItem";
-//import img
+import proj1 from "../assests/proj1.jpg";
+import "../styles/Portfolio.css";
+
+
 function Portfolio() {
   return (
-    <div className="Portfolio">
+    <div className="portfolio">
       <h1>My Portfolio</h1>
       <div className="PortfolioList">
-        <PortfolioItem name="Social Media Website" imgage />
-        <PortfolioItem />
+        <PortfolioItem name="ORM application" image={proj1} />
+      
       </div>
     </div>
   );

@@ -9,11 +9,11 @@ import SchoolIcon from "@material-ui/icons/School";
 function Experience() {
   return (
     <div className="experience">
-      <VerticalTimeline lineColor="blue">
+      <VerticalTimeline lineColor="rgb(29, 22, 113)">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="March 2023- Augest 2023"
-          iconStyle={{ background: "blue", color: "white" }}
+          iconStyle={{ background: "rgb(29, 22, 113)", color: "white" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element--title">
@@ -26,7 +26,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="April 2023-May 2023"
-          iconStyle={{ background: "blue", color: "white" }}
+          iconStyle={{ background: "rgb(29, 22, 113)", color: "white" }}
           icon={<SchoolIcon />}
         >
           <h4>Calendar Creator</h4>
@@ -40,7 +40,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="June 2023-July 2023"
-          iconStyle={{ background: "blue", color: "white" }}
+          iconStyle={{ background: "rgb(29, 22, 113)", color: "white" }}
           icon={<SchoolIcon />}
         >
           <h4>Express.js:Note Taker</h4>
@@ -58,7 +58,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="June 2023 - July 2023"
-          iconStyle={{ background: "blue", color: "white" }}
+          iconStyle={{ background: "rgb(29, 22, 113)", color: "white" }}
           icon={<SchoolIcon />}
         >
           <h4>ORM E-Commerce Portfolio</h4>
